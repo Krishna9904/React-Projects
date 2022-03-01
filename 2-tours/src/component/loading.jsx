@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const Loading = () => {
     return ( <div>
-        <h2>Loading...</h2>
+        <h2>KRISHNA'S TOURISM AGENCY</h2>
     </div> );
 }
  

@@ -14,7 +14,7 @@ const Tours = (props) => {
   return (
     <section>
       <div className="title">
-        <h2>Our Tours</h2>
+        <h2>KRISHNA'S TOURISM</h2>
         <div className="underline"> </div>
       </div>
       <div>{tours.length > 0 ? tours.map((item) => {
@@ -23,7 +23,7 @@ const Tours = (props) => {
               <footer>
                   <div className="tour-info">
                       <h4>{item.name}</h4>
-                      <h4 className="tourPrice">${item.price}</h4>
+                      <h4 className="tourPrice">Rs: 4,1{item.price}</h4>
                   </div> 
                   <p>{readMore ?item.info  :`${item.info.substring(0,200)}...`}
                   <button onClick={handleClick}>
